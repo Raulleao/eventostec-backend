@@ -1,2 +1,1 @@
 # eventostec-backend
-# eventostec-backend
