@@ -1,6 +1,6 @@
 CREATE TABLE coupon(
     id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
-    code VARCHAR(50) NOT NULL,
+    code VARCHAR(100) NOT NULL,
     discount INTEGER NOT NULL,
     valid TIMESTAMP NOT NULL,
     event_id UUID,
